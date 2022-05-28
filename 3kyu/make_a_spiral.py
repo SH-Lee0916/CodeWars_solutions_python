@@ -19,10 +19,9 @@ def spiralize(size):
             
             spiral = [list(sub) for sub in list(zip(*[sub_arr[::-1] for sub_arr in spiral]))]
     
-    while spiral[0][-3:] != [1, 0, 1]:
+    while (line + 1) % 4 != 0 :
         spiral = [list(sub) for sub in list(zip(*[sub_arr[::-1] for sub_arr in spiral]))]
-        
-    spiral = [list(sub) for sub in list(zip(*[sub_arr[::-1] for sub_arr in spiral]))]
+        line += 1
         
     return spiral
 

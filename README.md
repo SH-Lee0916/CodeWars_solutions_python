@@ -6,6 +6,6 @@ CodeWars solutions
 2022.04.23 7kyu -> 6kyu   
 2022.04.29 6kyu -> 5kyu   
 2022.05.13 5kyu -> 4kyu   
-2022.06.01 4Kyu -> 3Kyu    
+2022.06.01 4kyu -> 3kyu    
 
 https://www.codewars.com/

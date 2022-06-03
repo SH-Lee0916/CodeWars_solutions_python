@@ -5,7 +5,6 @@ https://www.codewars.com/kata/5264d2b162488dc400000001/
 def spin_words(sentence):
     tmp_words = sentence.split(" ")
     
-    result_words = []
     for idx, words in enumerate(tmp_words):
         if len(words) >= 5:
             tmp_words[idx] = words[::-1]
